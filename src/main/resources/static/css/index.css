@@ -1,0 +1,47 @@
+html, body {
+    min-height: 100vh;
+}
+
+html {
+    background-color: #161b1d;
+
+}
+
+body {
+    width: 70%;
+    background-color: #212529;
+    /* Dark background */
+    color: #f8f9fa;
+    /* Light text */
+}
+
+.card {
+    background-color: #343a40;
+    /* Darker card background */
+    color: #f8f9fa;
+    /* Light text */
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-btn {
+    border: none;
+    background: none;
+    padding: 0;
+    color: #adb5bd;
+    /* Subdued icon color */
+    transition: color 0.2s ease-in-out;
+}
+
+.icon-btn:hover {
+    color: #fff;
+    /* White on hover */
+}
+
+.icon-btn .bi {
+    font-size: 1.25rem;
+}
